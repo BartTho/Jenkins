@@ -1,3 +1,5 @@
+sudo apt update
+sudo apt install -y lsb-release python3-pip
 sudo apt install openjdk-21-jdk -y
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
     /usr/share/keyrings/jenkins-keyring.asc > /dev/null
